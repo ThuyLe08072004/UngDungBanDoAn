@@ -1,0 +1,1083 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "thuyltph35992@fpt.edu.vn",
+      "password": "123456",
+      "id": "1"
+    },
+    {
+      "name": "anh",
+      "email": "anh@gmail.com",
+      "password": "123456",
+      "id": "ad9a"
+    },
+    {
+      "id": "2a52",
+      "name": "gg",
+      "email": "ggg",
+      "password": "eee"
+    },
+    {
+      "id": "65d2",
+      "name": "Viet",
+      "email": "viet@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d114",
+      "name": "Thuy",
+      "email": "lephuongthuy0807@gnail.com",
+      "password": "0807"
+    },
+    {
+      "id": "61c4",
+      "name": "Thuy",
+      "email": "lephuongthuy0807@gnail.com",
+      "password": "1234"
+    },
+    {
+      "id": "5a73",
+      "name": "Thanh",
+      "email": "Lethithuy@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1208",
+      "name": "Thao",
+      "email": "lethao@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "V1",
+      "name": "Phở",
+      "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+      "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+      "special_ingredient": "Nước dùng từ xương bò",
+      "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "7.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "9.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.9,
+      "ratings_count": 8532,
+      "favourite": false,
+      "type": "Bún",
+      "index": 0
+    },
+    {
+      "id": "V2",
+      "name": "Bánh Mì",
+      "description": "Bánh Mì là một loại bánh mì Việt Nam nổi tiếng, được biết đến với hương vị ngon và đa dạng...",
+      "ingredients": "Bột mỳ, thịt băm, đùi gà, pate, rau sống, nước mắm",
+      "special_ingredient": "Nước mắm đặc biệt",
+      "imagelink_square": "https://banhmimahai.vn/wp-content/uploads/2020/02/thumb.jpg.webp",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhmi/portrait/banhmi_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "2.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "4.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.8,
+      "ratings_count": 7215,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 1
+    },
+    {
+      "id": "V3",
+      "name": "Bún Riêu",
+      "description": "Bún Riêu là một món ăn truyền thống của Việt Nam, nổi tiếng với nước dùng chua ngọt và bún bởi tôm và cua...",
+      "ingredients": "Bún, cua, tôm, cà chua, rau sống",
+      "special_ingredient": "Nước dùng Bún Riêu",
+      "imagelink_square": "https://static-images.vnncdn.net/files/publish/2023/4/3/bun-rieu-cua-fb-464.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/bunrieu/portrait/bunrieu_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "5.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "8.99",
+          "currency": "$"
+        },
+        {
+          "size": "Vừa",
+          "price": "7.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.6,
+      "ratings_count": 6124,
+      "favourite": false,
+      "type": "Bún",
+      "index": 2
+    },
+    {
+      "id": "V4",
+      "name": "Cơm Gà Hải Nam",
+      "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+      "ingredients": "Gà, cơm, nước mắm gừng",
+      "special_ingredient": "Nước mắm gừng",
+      "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "6.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "9.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.9,
+      "ratings_count": 9235,
+      "favourite": false,
+      "type": "Cơm",
+      "index": 3
+    },
+    {
+      "id": "V5",
+      "name": "Bánh Xèo",
+      "description": "Bánh Xèo là một loại bánh xèo giòn của Việt Nam, nhân với tôm, thịt heo, giá đỗ và rau sống...",
+      "ingredients": "Bột gạo, nước cốt dừa, tôm, thịt heo, giá đỗ, rau sống",
+      "special_ingredient": "Nước cốt dừa",
+      "imagelink_square": "https://daotaobeptruong.vn/wp-content/uploads/2020/01/banh-xeo-mien-tay.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhxeo/portrait/banhxeo_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "4.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "7.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.7,
+      "ratings_count": 5876,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 4
+    },
+    {
+      "id": "V6",
+      "name": "Gỏi Cuốn",
+      "description": "Gỏi Cuốn, hoặc Cơm Cuốn Việt Nam, là những cuốn tươi ngon chứa tôm, bún, rau sống và đôi khi có thịt. Thường ăn kèm với nước mắm đậu phộng thơm ngon.",
+      "ingredients": "Bánh tráng, tôm, bún, rau sống, thịt (tuỳ chọn)",
+      "special_ingredient": "Nước mắm đậu phộng thơm ngon",
+      "imagelink_square": "https://i.pinimg.com/736x/c3/03/3d/c3033de2d1df36a393fbd52da537fe77.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/goicuon/portrait/goicuon_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "3.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "6.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.8,
+      "ratings_count": 6452,
+      "favourite": false,
+      "type": "Gỏi",
+      "index": 5
+    },
+    {
+      "id": "V7",
+      "name": "Bún Thịt Nướng",
+      "description": "Bún Thịt Nướng là một món ăn của Việt Nam với thịt nướng phục vụ trên bún, kèm theo rau sống, rau xào và một bát nước mắm pha.",
+      "ingredients": "Thịt nướng, bún, rau sống, rau xào",
+      "special_ingredient": "Nước mắm",
+      "imagelink_square": "https://statics.vinpearl.com/bun-thit-nuong-ha-noi-1_1693401623.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/bunthitnuong/portrait/bunthitnuong_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "5.99",
+          "currency": "$"
+        },
+        {
+          "size": "Lớn",
+          "price": "8.99",
+          "currency": "$"
+        }
+      ],
+      "average_rating": 4.9,
+      "ratings_count": 7874,
+      "favourite": false,
+      "type": "Bún",
+      "index": 6
+    },
+    {
+      "id": "V8",
+      "name": "Bánh Cuốn",
+      "description": "Bánh Cuốn là một món ăn truyền thống của Việt Nam, được làm từ lá bánh mỏng cuốn bên trong có nhân từ thịt và nấm. Thường được ăn kèm với nước mắm pha chua ngọt và rau sống.",
+      "ingredients": "Bột gạo, thịt, nấm, nước mắm, rau sống",
+      "special_ingredient": "Nước mắm chua ngọt",
+      "imagelink_square": "https://static.vinwonders.com/production/banh-cuon-da-lat-1.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhcuon/portrait/banhcuon_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "4.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "7.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.6,
+      "ratings_count": 5320,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 7
+    },
+    {
+      "id": "V9",
+      "name": "Cơm Niêu",
+      "description": "Cơm Niêu là một món ăn truyền thống phổ biến ở miền Bắc Việt Nam. Cơm được nấu trong nồi cơm niêu, thường có thêm mỡ hành và gia vị, tạo nên hương vị đặc trưng và thơm ngon.",
+      "ingredients": "Gạo, mỡ hành, gia vị",
+      "special_ingredient": "Gạo nấu trên nồi cơm niêu",
+      "imagelink_square": "https://static.vinwonders.com/2022/10/com-nieu-da-nang-01.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/comnieu/portrait/comnieu_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "3.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "6.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.7,
+      "ratings_count": 4892,
+      "favourite": false,
+      "type": "Cơm",
+      "index": 8
+    },
+    {
+      "id": "V10",
+      "name": "Mì Quảng",
+      "description": "Mì Quảng là một món ăn truyền thống của miền Trung Việt Nam. Mì Quảng có nước dùng đặc trưng, được phục vụ với nước mắm, rau sống, và gia vị, tạo nên một hương vị độc đáo.",
+      "ingredients": "Mì Quảng, thịt, tôm, nước dùng, rau sống",
+      "special_ingredient": "Nước mắm",
+      "imagelink_square": "https://cachnau.vn/wp-content/uploads/2021/12/cach-nau-mi-quang-phu-chiem.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/miquang/portrait/miquang_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "5.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "8.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.8,
+      "ratings_count": 6723,
+      "favourite": false,
+      "type": "Mì",
+      "index": 9
+    },
+    {
+      "id": "V11",
+      "name": "Bánh Canh",
+      "description": "Bánh Canh là một món ăn truyền thống có nguồn gốc từ miền Nam Việt Nam. Bánh canh có nước dùng đặc trưng và được ăn kèm với các loại thịt, hải sản, và rau sống.",
+      "ingredients": "Bánh canh, thịt, hải sản, rau sống",
+      "special_ingredient": "Nước dùng đặc biệt",
+      "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/banh_canh_bao_nhieu_calo_an_nhieu_co_beo_khong_1_bb98d27077.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhcanh/portrait/banhcanh_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "6.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "9.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.7,
+      "ratings_count": 5432,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 10
+    },
+    {
+      "id": "V12",
+      "name": "Bánh Khọt",
+      "description": "Bánh Khọt là một món ăn nhẹ và ngon miệng, nổi tiếng ở miền Nam Việt Nam. Bánh khọt được làm từ bột gạo, nước cốt dừa, và ăn kèm với nước mắm pha chua ngọt.",
+      "ingredients": "Bột gạo, nước cốt dừa, tôm, nước mắm",
+      "special_ingredient": "Nước mắm pha chua ngọt",
+      "imagelink_square": "https://thammyviennevada.com/wp-content/uploads/2020/11/1-cai-banh-khot-bao-nhieu-calo-3-1.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhkhot/portrait/banhkhot_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "4.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "7.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.8,
+      "ratings_count": 6212,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 11
+    },
+    {
+      "id": "V13",
+      "name": "Bún Bò Huế",
+      "description": "Bún Bò Huế là một món ăn truyền thống của miền Trung Việt Nam. Nó có nước dùng cay nồng, thơm ngon, và được ăn kèm với bún, thịt bò, và các loại rau sống.",
+      "ingredients": "Bún, thịt bò, gia vị, rau sống",
+      "special_ingredient": "Nước dùng cay nồng",
+      "imagelink_square": "https://statics.vinpearl.com/bun-bo-hue-1_1628650972.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/bunbohue/portrait/bunbohue_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "7.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "10.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.9,
+      "ratings_count": 7543,
+      "favourite": false,
+      "type": "Bún",
+      "index": 12
+    },
+    {
+      "id": "V14",
+      "name": "Nước Mía",
+      "description": "Nước Mía là một đồ uống truyền thống của Việt Nam, được làm từ nước mía tươi ngon. Thường được phục vụ với đá và có thể thêm chút chanh để tăng hương vị.",
+      "ingredients": "Nước mía",
+      "special_ingredient": "Chanh (tuỳ chọn)",
+      "imagelink_square": "https://xenuocmiasach.com/wp-content/uploads/2022/03/uong-nhieu-nuoc-mia-co-tot-khong-1.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/nuocmia/portrait/nuocmia_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "2.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "4.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.6,
+      "ratings_count": 4876,
+      "favourite": false,
+      "type": "Đồ Uống",
+      "index": 13
+    },
+    {
+      "id": "V15",
+      "name": "Bánh Bèo",
+      "description": "Bánh Bèo là một món ăn nhẹ, được làm từ bột gạo và có hình dáng nhỏ gọn, trơn mịn. Thường ăn kèm với nước mắm pha chua ngọt, bánh bèo là một lựa chọn phổ biến trong ẩm thực miền Trung Việt Nam.",
+      "ingredients": "Bột gạo, nước mắm, gia vị",
+      "special_ingredient": "Nước mắm pha chua ngọt",
+      "imagelink_square": "https://monngonmoingay.com/wp-content/uploads/2015/08/AGF_0635-banh-beo.png",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhbeo/portrait/banhbeo_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "3.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "6.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.5,
+      "ratings_count": 4321,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 14
+    },
+    {
+      "id": "V16",
+      "name": "Bánh Mì Hòa Mã",
+      "description": "Bánh Mì Hòa Mã là một biến thể của bánh mì truyền thống Việt Nam, nổi tiếng ở thành phố Cần Thơ. Bánh mì này thường được ăn kèm với thịt nướng, chả, rau sống, và nước mắm.",
+      "ingredients": "Bánh mì, thịt nướng, chả, rau sống",
+      "special_ingredient": "Nước mắm",
+      "imagelink_square": "https://thecitylane.com/wp-content/uploads/2022/06/X1000371.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/banhmihoa/portrait/banhmihoa_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "4.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "7.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.6,
+      "ratings_count": 5210,
+      "favourite": false,
+      "type": "Bánh",
+      "index": 15
+    },
+    {
+      "id": "V18",
+      "name": "Nem Nướng",
+      "description": "Nem Nướng là một món ăn đặc trưng của miền Nam Việt Nam, được làm từ thịt heo ướp gia vị và nướng chín tới. Thường ăn kèm với bún, bánh tráng, rau sống, và nước mắm.",
+      "ingredients": "Thịt heo, bún, bánh tráng, rau sống, nước mắm",
+      "special_ingredient": "Nước mắm pha chua ngọt",
+      "imagelink_square": "https://dacsanmientayquetoi.com/wp-content/uploads/2022/07/1-3-1.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/nemnuong/portrait/nemnuong_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "6.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "9.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.8,
+      "ratings_count": 7312,
+      "favourite": false,
+      "type": "Nem",
+      "index": 17
+    },
+    {
+      "id": "V19",
+      "name": "Cà Phê Sữa Đá",
+      "description": "Cà Phê Sữa Đá là một đồ uống phổ biến và thơm ngon của Việt Nam. Cà phê pha chế từ cà phê robusta, được phục vụ trên đá và có thêm sữa đặc vào tạo hương vị đặc trưng.",
+      "ingredients": "Cà phê, đá, sữa đặc",
+      "special_ingredient": "Sữa đặc",
+      "imagelink_square": "https://www.huongnghiepaau.com/wp-content/uploads/2017/11/ca-phe-sua-da.jpg",
+      "imagelink_portrait": "../assets/vietnamese_dishes/caphesuada/portrait/caphesuada_pic_portrait.png",
+      "prices": [
+        {
+          "size": "Nhỏ",
+          "price": "2.99",
+          "currency": "₫"
+        },
+        {
+          "size": "Lớn",
+          "price": "4.99",
+          "currency": "₫"
+        }
+      ],
+      "average_rating": 4.7,
+      "ratings_count": 5987,
+      "favourite": false,
+      "type": "Đồ Uống",
+      "index": 18
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "id": "2c92",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 2,
+            "totalSize": 15.98
+          },
+          {
+            "size": "Lớn",
+            "price": "9.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 9.99
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": true,
+        "type": "Bún",
+        "index": 0,
+        "date": "7/6/2024",
+        "totalAmount": "42.93"
+      },
+      "V2": {
+        "name": "Bánh Mì",
+        "description": "Bánh Mì là một loại bánh mì Việt Nam nổi tiếng, được biết đến với hương vị ngon và đa dạng...",
+        "ingredients": "Bột mỳ, thịt băm, đùi gà, pate, rau sống, nước mắm",
+        "special_ingredient": "Nước mắm đặc biệt",
+        "imagelink_square": "https://banhmimahai.vn/wp-content/uploads/2020/02/thumb.jpg.webp",
+        "imagelink_portrait": "../assets/vietnamese_dishes/banhmi/portrait/banhmi_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "2.99",
+            "currency": "$",
+            "quantity": 2,
+            "totalSize": 5.98
+          },
+          {
+            "size": "Lớn",
+            "price": "4.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 4.99
+          }
+        ],
+        "average_rating": 4.8,
+        "ratings_count": 7215,
+        "favourite": true,
+        "type": "Bánh",
+        "index": 1,
+        "date": "7/6/2024",
+        "totalAmount": "42.93"
+      },
+      "V3": {
+        "name": "Bún Riêu",
+        "description": "Bún Riêu là một món ăn truyền thống của Việt Nam, nổi tiếng với nước dùng chua ngọt và bún bởi tôm và cua...",
+        "ingredients": "Bún, cua, tôm, cà chua, rau sống",
+        "special_ingredient": "Nước dùng Bún Riêu",
+        "imagelink_square": "https://static-images.vnncdn.net/files/publish/2023/4/3/bun-rieu-cua-fb-464.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/bunrieu/portrait/bunrieu_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "5.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 5.99
+          }
+        ],
+        "average_rating": 4.6,
+        "ratings_count": 6124,
+        "favourite": false,
+        "type": "Bún",
+        "index": 2,
+        "date": "7/6/2024",
+        "totalAmount": "42.93"
+      }
+    },
+    {
+      "id": "d288",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 2,
+            "totalSize": 15.98
+          },
+          {
+            "size": "Lớn",
+            "price": "9.99",
+            "currency": "$",
+            "quantity": 2,
+            "totalSize": 19.98
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": true,
+        "type": "Bún",
+        "index": 0,
+        "date": "7/6/2024",
+        "totalAmount": "35.96"
+      }
+    },
+    {
+      "id": "2a01",
+      "V2": {
+        "name": "Bánh Mì",
+        "description": "Bánh Mì là một loại bánh mì Việt Nam nổi tiếng, được biết đến với hương vị ngon và đa dạng...",
+        "ingredients": "Bột mỳ, thịt băm, đùi gà, pate, rau sống, nước mắm",
+        "special_ingredient": "Nước mắm đặc biệt",
+        "imagelink_square": "https://banhmimahai.vn/wp-content/uploads/2020/02/thumb.jpg.webp",
+        "imagelink_portrait": "../assets/vietnamese_dishes/banhmi/portrait/banhmi_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "2.99",
+            "currency": "$",
+            "quantity": 4,
+            "totalSize": 11.96
+          }
+        ],
+        "average_rating": 4.8,
+        "ratings_count": 7215,
+        "favourite": true,
+        "type": "Bánh",
+        "index": 1,
+        "date": "7/6/2024",
+        "totalAmount": "11.96"
+      }
+    },
+    {
+      "id": "76b8",
+      "V4": {
+        "name": "Cơm Gà Hải Nam",
+        "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+        "ingredients": "Gà, cơm, nước mắm gừng",
+        "special_ingredient": "Nước mắm gừng",
+        "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "6.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 6.99
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 9235,
+        "favourite": false,
+        "type": "Cơm",
+        "index": 3,
+        "date": "7/6/2024",
+        "totalAmount": "6.99"
+      }
+    },
+    {
+      "id": "c8ee",
+      "V16": {
+        "name": "Bánh Mì Hòa Mã",
+        "description": "Bánh Mì Hòa Mã là một biến thể của bánh mì truyền thống Việt Nam, nổi tiếng ở thành phố Cần Thơ. Bánh mì này thường được ăn kèm với thịt nướng, chả, rau sống, và nước mắm.",
+        "ingredients": "Bánh mì, thịt nướng, chả, rau sống",
+        "special_ingredient": "Nước mắm",
+        "imagelink_square": "https://thecitylane.com/wp-content/uploads/2022/06/X1000371.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/banhmihoa/portrait/banhmihoa_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "4.99",
+            "currency": "₫",
+            "quantity": 1,
+            "totalSize": 4.99
+          }
+        ],
+        "average_rating": 4.6,
+        "ratings_count": 5210,
+        "favourite": true,
+        "type": "Bánh",
+        "index": 15,
+        "date": "8/6/2024",
+        "totalAmount": "4.99"
+      }
+    },
+    {
+      "id": "fd50",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 3,
+            "totalSize": 23.97
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": false,
+        "type": "Bún",
+        "index": 0,
+        "date": "10/6/2024",
+        "totalAmount": "37.95"
+      },
+      "V4": {
+        "name": "Cơm Gà Hải Nam",
+        "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+        "ingredients": "Gà, cơm, nước mắm gừng",
+        "special_ingredient": "Nước mắm gừng",
+        "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "6.99",
+            "currency": "$",
+            "quantity": 2,
+            "totalSize": 13.98
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 9235,
+        "favourite": false,
+        "type": "Cơm",
+        "index": 3,
+        "date": "10/6/2024",
+        "totalAmount": "37.95"
+      }
+    },
+    {
+      "id": "e7ab"
+    },
+    {
+      "id": "1d4b",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 17,
+            "totalSize": 135.83
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": true,
+        "type": "Bún",
+        "index": 0,
+        "date": "10/6/2024",
+        "totalAmount": "135.83"
+      }
+    },
+    {
+      "id": "036e"
+    },
+    {
+      "id": "60cb"
+    },
+    {
+      "id": "6e46"
+    },
+    {
+      "id": "e35d",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 3,
+            "totalSize": 23.97
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": true,
+        "type": "Bún",
+        "index": 0,
+        "date": "10/6/2024",
+        "totalAmount": "23.97"
+      }
+    },
+    {
+      "id": "7561",
+      "V4": {
+        "name": "Cơm Gà Hải Nam",
+        "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+        "ingredients": "Gà, cơm, nước mắm gừng",
+        "special_ingredient": "Nước mắm gừng",
+        "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "6.99",
+            "currency": "$",
+            "quantity": 4,
+            "totalSize": 27.96
+          },
+          {
+            "size": "Lớn",
+            "price": "9.99",
+            "currency": "$",
+            "quantity": 4,
+            "totalSize": 39.96
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 9235,
+        "favourite": false,
+        "type": "Cơm",
+        "index": 3,
+        "date": "10/6/2024",
+        "totalAmount": "67.92"
+      }
+    },
+    {
+      "id": "941a",
+      "V2": {
+        "name": "Bánh Mì",
+        "description": "Bánh Mì là một loại bánh mì Việt Nam nổi tiếng, được biết đến với hương vị ngon và đa dạng...",
+        "ingredients": "Bột mỳ, thịt băm, đùi gà, pate, rau sống, nước mắm",
+        "special_ingredient": "Nước mắm đặc biệt",
+        "imagelink_square": "https://banhmimahai.vn/wp-content/uploads/2020/02/thumb.jpg.webp",
+        "imagelink_portrait": "../assets/vietnamese_dishes/banhmi/portrait/banhmi_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Lớn",
+            "price": "4.99",
+            "currency": "$",
+            "quantity": 5,
+            "totalSize": 24.950000000000003
+          }
+        ],
+        "average_rating": 4.8,
+        "ratings_count": 7215,
+        "favourite": false,
+        "type": "Bánh",
+        "index": 1,
+        "date": "10/6/2024",
+        "totalAmount": "24.95"
+      }
+    },
+    {
+      "id": "27c4",
+      "V14": {
+        "name": "Nước Mía",
+        "description": "Nước Mía là một đồ uống truyền thống của Việt Nam, được làm từ nước mía tươi ngon. Thường được phục vụ với đá và có thể thêm chút chanh để tăng hương vị.",
+        "ingredients": "Nước mía",
+        "special_ingredient": "Chanh (tuỳ chọn)",
+        "imagelink_square": "https://xenuocmiasach.com/wp-content/uploads/2022/03/uong-nhieu-nuoc-mia-co-tot-khong-1.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/nuocmia/portrait/nuocmia_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "2.99",
+            "currency": "₫",
+            "quantity": 1,
+            "totalSize": 2.99
+          }
+        ],
+        "average_rating": 4.6,
+        "ratings_count": 4876,
+        "favourite": false,
+        "type": "Đồ Uống",
+        "index": 13,
+        "date": "10/6/2024",
+        "totalAmount": "2.99"
+      }
+    },
+    {
+      "id": "7362",
+      "V4": {
+        "name": "Cơm Gà Hải Nam",
+        "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+        "ingredients": "Gà, cơm, nước mắm gừng",
+        "special_ingredient": "Nước mắm gừng",
+        "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "6.99",
+            "currency": "$",
+            "quantity": 14,
+            "totalSize": 97.86
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 9235,
+        "favourite": false,
+        "type": "Cơm",
+        "index": 3,
+        "date": "11/6/2024",
+        "totalAmount": "97.86"
+      }
+    },
+    {
+      "id": "8515",
+      "V1": {
+        "name": "Phở",
+        "description": "Phở là một món ăn truyền thống của Việt Nam có xuất xứ từ Vân Cù, Nam Định. Phở được xem là một trong những món ăn tiêu biểu cho nền ẩm thực Việt Nam.",
+        "ingredients": "Bánh phở, thịt bò, rau thơm, gia vị",
+        "special_ingredient": "Nước dùng từ xương bò",
+        "imagelink_square": "https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/1_to_pho_bo_bao_nhieu_calo_9_762e002737.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/pho/portrait/pho_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "7.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 7.99
+          },
+          {
+            "size": "Lớn",
+            "price": "9.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 9.99
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 8532,
+        "favourite": false,
+        "type": "Bún",
+        "index": 0,
+        "date": "11/6/2024",
+        "totalAmount": "17.98"
+      }
+    },
+    {
+      "id": "c765"
+    },
+    {
+      "id": "23e7"
+    },
+    {
+      "id": "1268",
+      "V4": {
+        "name": "Cơm Gà Hải Nam",
+        "description": "Cơm Gà Hải Nam là một món ăn ngon của Việt Nam, nổi tiếng với cơm mềm và gà thơm ngon...",
+        "ingredients": "Gà, cơm, nước mắm gừng",
+        "special_ingredient": "Nước mắm gừng",
+        "imagelink_square": "https://statics.vinpearl.com/com-ga-hai-nam-ha-noi-0_1695906250.jpg",
+        "imagelink_portrait": "../assets/vietnamese_dishes/comgahainam/portrait/comgahainam_pic_portrait.png",
+        "prices": [
+          {
+            "size": "Nhỏ",
+            "price": "6.99",
+            "currency": "$",
+            "quantity": 1,
+            "totalSize": 6.99
+          }
+        ],
+        "average_rating": 4.9,
+        "ratings_count": 9235,
+        "favourite": false,
+        "type": "Cơm",
+        "index": 3,
+        "date": "11/6/2024",
+        "totalAmount": "6.99"
+      }
+    },
+    {
+      "id": "dff3"
+    },
+    {
+      "id": "58df"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "ad45",
+      "name": "Thuy",
+      "email": "thuyltph35992@fpt.edu.vn",
+      "content": "ttttt"
+    },
+    {
+      "id": "267c",
+      "name": "Quynh",
+      "email": "quynh@gmail",
+      "content": "ttttt"
+    },
+    {
+      "id": "eca9",
+      "name": "Viet",
+      "email": "hhh@gmail.com",
+      "content": "hhhh"
+    },
+    {
+      "id": "5dca",
+      "name": "Â",
+      "email": "lephuongthuy0807@gmail.com",
+      "content": "D"
+    },
+    {
+      "id": "effa",
+      "name": "Â",
+      "email": "lephuongthuy0807@gmail.com",
+      "content": "D"
+    },
+    {
+      "id": "45a5",
+      "name": "",
+      "email": "",
+      "content": ""
+    },
+    {
+      "id": "23dd",
+      "name": "Lê Thảo",
+      "email": "lephuongthuy0807@gmail.com",
+      "content": "123ghdhd"
+    }
+  ]
+}
